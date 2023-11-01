@@ -3,5 +3,5 @@ import json
 def lambda_handler(event, context):
     return {
         'statusCode': 200,
-        'body': json.dumps('Hello from Lambda! GitHubAction deploy!!')
+        'body': json.dumps('Hello World 2023/11/01')
     }
